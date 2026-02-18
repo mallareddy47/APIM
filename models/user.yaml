@@ -1,0 +1,14 @@
+# models/user.yaml
+type: object
+properties:
+  id:
+    type: integer
+    format: int64
+  username:
+    type: string
+  email:
+    type: string
+    format: email
+required:
+  - id
+  - username
